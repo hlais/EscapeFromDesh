@@ -15,6 +15,7 @@ public class MoveLeft : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		
 		transform.position += Vector3.left * speed * Time.deltaTime; // this moves cactus to the left. its gets transforms. and moves it to left >.<!!!
 
 	}
